@@ -27,10 +27,10 @@ public abstract class BaseTest {
         driver.manage().window().maximize();
     }
 
-    @AfterAll
-    public static void tearDown() {
-        driver.quit();
-    }
+//    @AfterAll
+//    public static void tearDown() {
+//        driver.quit();
+//    }
 
     static class ScreenshotOnFailureExtension implements TestWatcher {
 
