@@ -5,14 +5,8 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.api.extension.TestWatcher;
 import org.junit.jupiter.api.extension.ExtensionContext;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 
 import static demoqa.base.WebDriverSingleton.driver;
-import static demoqa.utils.ScreenshotUtil.takeScreenshot;
-
-import java.util.Optional;
 
 /**
  * Базовый класс для всех тестов.
@@ -27,8 +21,8 @@ public abstract class BaseTest {
         driver.manage().window().maximize();
     }
 
-//    @AfterAll
-//    public static void tearDown() {
+//    @AfterEach
+//    public void tearDown() {
 //        driver.quit();
 //    }
 

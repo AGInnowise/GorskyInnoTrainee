@@ -22,11 +22,13 @@ public class RadioButtonPage extends BasePage {
     }
 
     public void clickYesRadio() {
-        yesRadio.click();
+        WebDriver driver = WebDriverSingleton.driver;
+        ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].click();", yesRadio.getElement());
     }
 
     public void clickImpressiveRadio() {
-        impressiveRadio.click();
+        WebDriver driver = WebDriverSingleton.driver;
+        ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].click();", impressiveRadio.getElement());
     }
 
     public boolean isResultText(String expectedText) {

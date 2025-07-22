@@ -65,4 +65,8 @@ public class BaseElement {
     public String getAttribute(String attributeName) {
         return findElement().getAttribute(attributeName);
     }
+
+    public WebElement getElement() {
+        return findElement();
+    }
 }

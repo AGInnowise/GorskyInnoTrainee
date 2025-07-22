@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: demoqa.tests.CheckBoxTests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.103 s -- in demoqa.tests.CheckBoxTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.517 s -- in demoqa.tests.CheckBoxTests
