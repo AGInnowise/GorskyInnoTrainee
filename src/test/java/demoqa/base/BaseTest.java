@@ -20,7 +20,7 @@ public abstract class BaseTest {
         driver = WebDriverSingleton.getDriver();
         driver.manage().window().maximize();
     }
-
+//
 //    @AfterEach
 //    public void tearDown() {
 //        driver.quit();
