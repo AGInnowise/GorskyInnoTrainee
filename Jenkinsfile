@@ -1,9 +1,8 @@
 pipeline {
   agent any
   tools {
-    jdk 'Java-17'
-    maven 'Maven-3.8'
-    allure 'Allure'
+    jdk 'Java_17'
+    maven 'Maven-3.9'
   }
   stages {
     stage('Checkout') {
