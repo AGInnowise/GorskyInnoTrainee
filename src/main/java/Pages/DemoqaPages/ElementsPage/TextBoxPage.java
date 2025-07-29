@@ -1,29 +1,25 @@
 package Pages.DemoqaPages.ElementsPage;
 
-import Elements.BaseElement;
+import Elements.ButtonElement.ButtonElement;
+import Elements.TextBoxElement.TextBoxElement;
 import Pages.BasePage;
 import WebDriverManager.WebDriverSingleton;
-import demoqa.base.BaseElement;
-import demoqa.base.BasePage;
-import demoqa.base.ConfigReader;
-import demoqa.base.WebDriverSingleton;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
 public class TextBoxPage extends BasePage {
-    private final BaseElement textBoxMenuItem = new BaseElement(driver, By.id("item-0"));
-    private final BaseElement userNameInput = new BaseElement(driver, By.id("userName"));
-    private final BaseElement userEmailInput = new BaseElement(driver, By.id("userEmail"));
-    private final BaseElement currentAddressInput = new BaseElement(driver, By.id("currentAddress"));
-    private final BaseElement permanentAddressInput = new BaseElement(driver, By.id("permanentAddress"));
-    private final BaseElement submitButton = new BaseElement(driver, By.id("submit"));
+    private final ButtonElement textBoxMenuItem = new ButtonElement(driver, By.id("item-0"));
+    private final TextBoxElement userNameInput = new TextBoxElement(driver, By.id("userName"));
+    private final TextBoxElement userEmailInput = new TextBoxElement(driver, By.id("userEmail"));
+    private final TextBoxElement currentAddressInput = new TextBoxElement(driver, By.id("currentAddress"));
+    private final TextBoxElement permanentAddressInput = new TextBoxElement(driver, By.id("permanentAddress"));
+    private final ButtonElement submitButton = new ButtonElement(driver, By.id("submit"));
 
-    private final BaseElement resultName = new BaseElement(driver, By.id("name"));
-    private final BaseElement resultEmail = new BaseElement(driver, By.id("email"));
-    private final BaseElement resultCurrentAddress = new BaseElement(driver, By.id("currentAddress"));
-    private final BaseElement resultPermanentAddress = new BaseElement(driver, By.id("permanentAddress"));
+    private final TextBoxElement resultName = new TextBoxElement(driver, By.id("name"));
+    private final TextBoxElement resultEmail = new TextBoxElement(driver, By.id("email"));
+    private final TextBoxElement resultCurrentAddress = new TextBoxElement(driver, By.id("currentAddress"));
+    private final TextBoxElement resultPermanentAddress = new TextBoxElement(driver, By.id("permanentAddress"));
 
-    private final BaseElement emailValidationError = new BaseElement(driver, By.className("field-error"));
+    private final TextBoxElement emailValidationError = new TextBoxElement(driver, By.className("field-error"));
 
     public TextBoxPage() {
         super(WebDriverSingleton.driver);

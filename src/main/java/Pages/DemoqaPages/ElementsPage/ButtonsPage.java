@@ -1,22 +1,18 @@
 package Pages.DemoqaPages.ElementsPage;
 
-import Elements.BaseElement;
+import Elements.ButtonElement.ButtonElement;
 import Pages.BasePage;
 import WebDriverManager.WebDriverSingleton;
-import demoqa.base.BasePage;
-import demoqa.base.WebDriverSingleton;
-import demoqa.base.BaseElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.WebDriver;
 
 public class ButtonsPage extends BasePage {
 
-    private final BaseElement doubleClickBtn = new BaseElement(driver, By.id("doubleClickBtn"));
-    private final BaseElement rightClickBtn = new BaseElement(driver, By.id("rightClickBtn"));
-    private final BaseElement doubleClickMessage = new BaseElement(driver, By.id("doubleClickMessage"));
-    private final BaseElement rightClickMessage = new BaseElement(driver, By.id("rightClickMessage"));
-    private final BaseElement buttonsSelector = new BaseElement(driver, By.id("item-4"));
+    private final ButtonElement doubleClickBtn = new ButtonElement(driver, By.id("doubleClickBtn"));
+    private final ButtonElement rightClickBtn = new ButtonElement(driver, By.id("rightClickBtn"));
+    private final ButtonElement doubleClickMessage = new ButtonElement(driver, By.id("doubleClickMessage"));
+    private final ButtonElement rightClickMessage = new ButtonElement(driver, By.id("rightClickMessage"));
+    private final ButtonElement buttonsSelector = new ButtonElement(driver, By.id("item-4"));
 
     public ButtonsPage() {
         super(WebDriverSingleton.driver);

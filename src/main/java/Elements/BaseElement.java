@@ -1,6 +1,5 @@
 package Elements;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
@@ -14,8 +13,8 @@ import java.time.Duration;
  */
 public class BaseElement {
     private final WebDriver driver;
-    private final By locator;
-    private final int timeoutInSeconds = 10;
+    protected final By locator;
+    protected final int timeoutInSeconds = 10;
 
     public BaseElement(WebDriver driver, By locator) {
         this.driver = driver;
@@ -27,20 +26,8 @@ public class BaseElement {
                 .until(ExpectedConditions.presenceOfElementLocated(locator));
     }
 
-    public void click() {
-        WebElement element = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds))
-                .until(ExpectedConditions.elementToBeClickable(locator));
 
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
 
-        element.click();
-    }
-
-    public void sendKeys(String text) {
-        WebElement element = findElement();
-        element.clear();
-        element.sendKeys(text);
-    }
 
     public String getText() {
         return findElement().getText();

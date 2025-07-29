@@ -1,6 +1,6 @@
 package demoqa.UiTests.ElementPageTests;
 
-import BaseTest;
+import demoqa.UiTests.BaseTest;
 import Pages.DemoqaPages.ElementsPage.RadioButtonPage;
 import org.junit.jupiter.api.Test;
 
