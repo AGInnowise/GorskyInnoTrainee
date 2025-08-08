@@ -5,6 +5,7 @@ import Elements.TextBoxElement.TextBoxElement;
 import Pages.BasePage;
 import WebDriverManager.WebDriverSingleton;
 import org.openqa.selenium.By;
+import Helpers.Logger;
 
 public class LinksImagesPage extends BasePage {
     private final ButtonElement linksSelector = new ButtonElement(driver, By.id("item-6"));
@@ -13,17 +14,23 @@ public class LinksImagesPage extends BasePage {
 
     public LinksImagesPage() {
         super(WebDriverSingleton.driver);
+        Logger.log("LinksImagesPage: initialized");
     }
 
     public void clickOnLinksImagesPage(){
+        Logger.log("LinksImagesPage: clickOnLinksImagesPage");
         linksSelector.click();
     }
 
     public boolean isValidLinkCorrect() {
-        return validLink.getAttribute("href").contains("demoqa.com");
+        boolean result = validLink.getAttribute("href").contains("demoqa.com");
+        Logger.log("LinksImagesPage: isValidLinkCorrect -> " + result);
+        return result;
     }
 
     public boolean isBrokenLinkCorrect() {
-        return brokenLink.getAttribute("href").contains("status_codes/500");
+        boolean result = brokenLink.getAttribute("href").contains("status_codes/500");
+        Logger.log("LinksImagesPage: isBrokenLinkCorrect -> " + result);
+        return result;
     }
 }

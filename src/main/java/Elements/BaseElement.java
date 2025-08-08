@@ -26,8 +26,9 @@ public class BaseElement {
                 .until(ExpectedConditions.presenceOfElementLocated(locator));
     }
 
-
-
+    public WebDriver getDriver() {
+        return driver;
+    }
 
     public String getText() {
         return findElement().getText();

@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
+import Helpers.Logger;
 
 public class CheckBoxPage extends BasePage {
 
@@ -25,41 +26,50 @@ public class CheckBoxPage extends BasePage {
 
     public CheckBoxPage() {
         super(WebDriverSingleton.driver);
+        Logger.log("CheckBoxPage: initialized");
     }
 
     public void navigateToCheckBoxPage(){
+        Logger.log("CheckBoxPage: navigateToCheckBoxPage");
         checkBoxSelector.click();
     }
 
     public void clickExpandAllButton() {
+        Logger.log("CheckBoxPage: clickExpandAllButton");
         expandAllButton.click();
     }
 
     public void clickMainCheckBox() {
+        Logger.log("CheckBoxPage: clickMainCheckBox");
         mainCheckBox.click();
     }
 
     public void clickCommandsText() {
+        Logger.log("CheckBoxPage: clickCommandsText");
         commandsText.click();
     }
 
     public void clickAngularText() {
+        Logger.log("CheckBoxPage: clickAngularText");
         angularText.click();
     }
 
     public boolean areAllCheckboxesSelected() {
-        return driver.findElements(uncheckedCheckboxLocator).size() == 0;
+        boolean allSelected = driver.findElements(uncheckedCheckboxLocator).size() == 0;
+        Logger.log("CheckBoxPage: areAllCheckboxesSelected -> " + allSelected);
+        return allSelected;
     }
 
     public boolean isSelectedCheckBoxesInResult(String elementText) {
+        Logger.log("CheckBoxPage: isSelectedCheckBoxesInResult for " + elementText);
         boolean isTrue = false;
-
         List<WebElement> resultsList = driver.findElements(results);
-        for(WebElement element : resultsList){
-            if(element.getText().contains(elementText.toLowerCase())){
+        for (WebElement element : resultsList) {
+            if (element.getText().contains(elementText.toLowerCase())) {
                 isTrue = true;
             }
         }
+        Logger.log("CheckBoxPage: isSelectedCheckBoxesInResult -> " + isTrue);
         return isTrue;
     }
 }

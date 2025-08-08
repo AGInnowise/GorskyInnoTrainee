@@ -7,6 +7,7 @@ import WebDriverManager.WebDriverSingleton;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import Helpers.Logger;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -29,32 +30,44 @@ public class FilesPage extends BasePage {
 
     public FilesPage() {
         super(WebDriverSingleton.driver);
+        Logger.log("FilesPage: initialized");
     }
 
     public void clickFilesPage() {
+        Logger.log("FilesPage: clickFilesPage");
         filesSelector.click();
     }
 
     public boolean waitForUploadConfirmation(int timeoutInSeconds) {
+        Logger.log("FilesPage: waitForUploadConfirmation -> timeoutInSeconds = " + timeoutInSeconds);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("uploadedFilePath"))).isDisplayed();
+        boolean visible = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("uploadedFilePath"))).isDisplayed();
+        Logger.log("FilesPage: waitForUploadConfirmation -> visible = " + visible);
+        return visible;
     }
 
     public String getUploadedFileName() {
-        return driver.findElement(By.id("uploadedFilePath")).getText();
+        String name = driver.findElement(By.id("uploadedFilePath")).getText();
+        Logger.log("FilesPage: getUploadedFileName -> " + name);
+        return name;
     }
 
     public boolean waitForFileDownload(String filePath, int timeoutInSeconds) {
+        Logger.log("FilesPage: waitForFileDownload -> filePath = " + filePath + ", timeoutInSeconds = " + timeoutInSeconds);
         File file = new File(filePath);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
-        return wait.until(d -> file.exists());
+        boolean result = wait.until(d -> file.exists());
+        Logger.log("FilesPage: waitForFileDownload -> result = " + result);
+        return result;
     }
 
     public void clickDownloadButton() {
+        Logger.log("FilesPage: clickDownloadButton");
         downloadButton.click();
     }
 
     public boolean isFileDownloaded() {
+        Logger.log("FilesPage: isFileDownloaded");
         try (Stream<Path> files = Files.list(Paths.get(downloadDir))) {
             Optional<Path> latestFile = files
                     .filter(Files::isRegularFile)
@@ -62,26 +75,33 @@ public class FilesPage extends BasePage {
 
             if (latestFile.isPresent()) {
                 downloadedFileName = latestFile.get().toString();
+                Logger.log("FilesPage: isFileDownloaded -> downloadedFileName = " + downloadedFileName);
                 return true;
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
+        Logger.log("FilesPage: isFileDownloaded -> no file found, returning false");
         return false;
     }
 
     public void uploadDownloadedFile() {
+        Logger.log("FilesPage: uploadDownloadedFile -> downloadedFileName = " + downloadedFileName);
         if (downloadedFileName != null) {
             uploadFileInput.findElement().sendKeys(downloadedFileName);
         }
     }
 
     public boolean isUploadedFilePathCorrect() {
+        Logger.log("FilesPage: isUploadedFilePathCorrect -> downloadedFileName = " + downloadedFileName);
         if (downloadedFileName != null) {
             String expectedFileName = Paths.get(downloadedFileName).getFileName().toString();
             String actualText = uploadedFilePath.getText();
-            return actualText.endsWith(expectedFileName);
+            boolean result = actualText.endsWith(expectedFileName);
+            Logger.log("FilesPage: isUploadedFilePathCorrect -> expected: " + expectedFileName + ", actual: " + actualText + ", result: " + result);
+            return result;
         }
+        Logger.log("FilesPage: isUploadedFilePathCorrect -> downloadedFileName was null, returning false");
         return false;
     }
 }

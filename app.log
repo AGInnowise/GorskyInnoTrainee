@@ -1,0 +1,586 @@
+2025-08-06 14:08:30 INFO  ApplicationLogger – ButtonsPage: initialized
+2025-08-06 14:08:31 INFO  ApplicationLogger – ButtonsPage: clickOnButtonsPage
+2025-08-06 14:08:31 INFO  ApplicationLogger – ButtonsPage: performRightClick
+2025-08-06 14:08:43 INFO  ApplicationLogger – ButtonsPage: initialized
+2025-08-06 14:08:44 INFO  ApplicationLogger – ButtonsPage: clickOnButtonsPage
+2025-08-06 14:08:44 INFO  ApplicationLogger – ButtonsPage: performDoubleClick
+2025-08-06 14:22:15 INFO  ApplicationLogger – LinksPage: initialized
+2025-08-06 14:22:16 INFO  ApplicationLogger – LinksPage: clickOnLinksPage
+2025-08-06 14:22:16 INFO  ApplicationLogger – LinksPage: clickSimpleLink
+2025-08-06 14:22:18 INFO  ApplicationLogger – LinksPage: initialized
+2025-08-06 14:22:18 INFO  ApplicationLogger – LinksPage: clickOnLinksPage
+2025-08-06 14:22:18 INFO  ApplicationLogger – LinksPage: clickCreatedLink
+2025-08-06 14:22:19 INFO  ApplicationLogger – LinksPage: getLinkResponseText -> Link has responded with staus 201 and status text Created
+2025-08-06 14:22:21 INFO  ApplicationLogger – LinksImagesPage: initialized
+2025-08-06 14:22:22 INFO  ApplicationLogger – LinksImagesPage: clickOnLinksImagesPage
+2025-08-06 14:22:22 INFO  ApplicationLogger – LinksImagesPage: isBrokenLinkCorrect -> true
+2025-08-06 14:22:24 INFO  ApplicationLogger – LinksImagesPage: initialized
+2025-08-06 14:22:25 INFO  ApplicationLogger – LinksImagesPage: clickOnLinksImagesPage
+2025-08-06 14:22:25 INFO  ApplicationLogger – LinksImagesPage: isValidLinkCorrect -> true
+2025-08-06 14:22:26 INFO  ApplicationLogger – FilesPage: initialized
+2025-08-06 14:22:27 INFO  ApplicationLogger – FilesPage: clickFilesPage
+2025-08-06 14:22:27 INFO  ApplicationLogger – FilesPage: clickDownloadButton
+2025-08-06 14:22:27 INFO  ApplicationLogger – FilesPage: isFileDownloaded
+2025-08-06 14:22:27 INFO  ApplicationLogger – FilesPage: isFileDownloaded -> downloadedFileName = /Users/home/Downloads/sampleFile (16).jpeg
+2025-08-06 14:22:27 INFO  ApplicationLogger – FilesPage: uploadDownloadedFile -> downloadedFileName = /Users/home/Downloads/sampleFile (16).jpeg
+2025-08-06 14:22:27 INFO  ApplicationLogger – FilesPage: isUploadedFilePathCorrect -> downloadedFileName = /Users/home/Downloads/sampleFile (16).jpeg
+2025-08-06 14:22:27 INFO  ApplicationLogger – FilesPage: isUploadedFilePathCorrect -> expected: sampleFile (16).jpeg, actual: C:\fakepath\sampleFile (16).jpeg, result: true
+2025-08-06 14:22:29 INFO  ApplicationLogger – DynamicPage: initialized
+2025-08-06 14:22:30 INFO  ApplicationLogger – DynamicPage: clickDynamicPage
+2025-08-06 14:22:30 INFO  ApplicationLogger – DynamicPage: isVisibleAfterButtonPresent -> false
+2025-08-06 14:22:35 INFO  ApplicationLogger – DynamicPage: isVisibleAfterButtonPresent -> true
+2025-08-06 14:22:37 INFO  ApplicationLogger – DynamicPage: initialized
+2025-08-06 14:22:38 INFO  ApplicationLogger – DynamicPage: clickDynamicPage
+2025-08-06 14:22:38 INFO  ApplicationLogger – DynamicPage: storeInitialColor
+2025-08-06 14:22:38 INFO  ApplicationLogger – DynamicPage: initialColor stored -> rgba(255, 255, 255, 1)
+2025-08-06 14:22:43 INFO  ApplicationLogger – DynamicPage: isColorChanged -> true (initial: rgba(255, 255, 255, 1), new: rgba(241, 173, 180, 1))
+2025-08-06 14:22:47 INFO  ApplicationLogger – HomePage: initialized
+2025-08-06 14:22:48 INFO  ApplicationLogger – HomePage: clickSubmitCookies
+2025-08-06 14:22:49 INFO  ApplicationLogger – HomePage: clickOnMobilePhonesLink
+2025-08-06 14:22:54 INFO  ApplicationLogger – MobilePhonesListingPage: initialized
+2025-08-06 14:22:54 INFO  ApplicationLogger – MobilePhonesListingPage: selectCheckBox256
+2025-08-06 14:22:54 INFO  ApplicationLogger – MobilePhonesListingPage: selectCheckBox512
+2025-08-06 14:22:54 INFO  ApplicationLogger – MobilePhonesListingPage: selectCheckBoxBattery5000
+2025-08-06 14:22:55 INFO  ApplicationLogger – MobilePhonesListingPage: sortByExpensive
+2025-08-06 14:22:55 INFO  ApplicationLogger – MobilePhonesListingPage: getTheMostExpensivePhone
+2025-08-06 14:22:55 INFO  ApplicationLogger – Телефон Xiaomi Redmi Note 14 Pro 5G 12GB/256GB международная версия (зеленый)
+2025-08-06 14:22:55 INFO  ApplicationLogger –  1090,00 р.
+2025-08-06 14:22:55 INFO  ApplicationLogger – Телефон Xiaomi Redmi Note 14 8GB/256GB международная версия (черный)
+2025-08-06 14:22:55 INFO  ApplicationLogger –  650,00 р.
+2025-08-06 14:22:55 INFO  ApplicationLogger – Телефон POCO F7 12GB/256GB международная версия (серебристый)
+2025-08-06 14:22:55 INFO  ApplicationLogger –  1499,00 р.
+2025-08-06 14:22:55 INFO  ApplicationLogger – Телефон Nokia 2660 (2022) TA-1469 Dual SIM (зеленый)
+2025-08-06 14:22:55 INFO  ApplicationLogger –  330,54 р.
+2025-08-06 14:22:55 INFO  ApplicationLogger – Телефон Apple iPhone 16e 128GB (белый)
+2025-08-06 14:22:55 INFO  ApplicationLogger –  1950,00 р.
+2025-08-06 14:22:55 INFO  ApplicationLogger – Телефон Apple iPhone 16 Pro 128GB (пустынный титан)
+2025-08-06 14:22:55 INFO  ApplicationLogger –  3200,00 р.
+2025-08-06 14:22:55 INFO  ApplicationLogger – Телефон Apple iPhone 16 Pro 128GB (черный титан)
+2025-08-06 14:22:55 INFO  ApplicationLogger –  3500,00 р.
+2025-08-06 14:22:55 INFO  ApplicationLogger – Телефон Apple iPhone 16 128GB (черный)
+2025-08-06 14:22:55 INFO  ApplicationLogger –  2499,00 р.
+2025-08-06 14:22:55 INFO  ApplicationLogger – Телефон Apple iPhone 15 128GB (черный)
+2025-08-06 14:22:55 INFO  ApplicationLogger –  2090,00 р.
+2025-08-06 14:22:55 INFO  ApplicationLogger – Телефон Samsung Galaxy S25 Ultra SM-S938B 12GB/256GB (черный титан)
+2025-08-06 14:22:55 INFO  ApplicationLogger –  3150,00 р.
+2025-08-06 14:22:55 INFO  ApplicationLogger – MobilePhonesListingPage: most expensive phone -> name: Телефон Apple iPhone 16 Pro 128GB (черный титан), price: 3500.0
+2025-08-06 14:23:00 INFO  ApplicationLogger – HomePage: initialized
+2025-08-06 14:23:04 INFO  ApplicationLogger – HomePage: clickSubmitCookies
+2025-08-06 14:23:04 INFO  ApplicationLogger – HomePage: clickOnMobilePhonesLink
+2025-08-06 14:23:04 INFO  ApplicationLogger – MobilePhonesListingPage: initialized
+2025-08-06 14:23:04 INFO  ApplicationLogger – MobilePhonesListingPage: selectCheckBox256
+2025-08-06 14:23:07 INFO  ApplicationLogger – MobilePhonesListingPage: selectCheckBox512
+2025-08-06 14:23:08 INFO  ApplicationLogger – MobilePhonesListingPage: selectCheckBoxBattery5000
+2025-08-06 14:23:08 INFO  ApplicationLogger – MobilePhonesListingPage: sortByExpensive
+2025-08-06 14:23:08 INFO  ApplicationLogger – MobilePhonesListingPage: getTheMostExpensivePhone
+2025-08-06 14:23:08 INFO  ApplicationLogger – 
+          Телефон Xiaomi Redmi Note 14 Pro 5G 12GB/256GB международная версия (зеленый)
+        
+2025-08-06 14:23:08 INFO  ApplicationLogger –  1090,00 р.
+2025-08-06 14:23:08 INFO  ApplicationLogger – 
+          Телефон Xiaomi Redmi Note 14 8GB/256GB международная версия (черный)
+        
+2025-08-06 14:23:08 INFO  ApplicationLogger –  650,00 р.
+2025-08-06 14:23:08 INFO  ApplicationLogger – 
+          Телефон POCO F7 12GB/256GB международная версия (серебристый)
+        
+2025-08-06 14:23:08 INFO  ApplicationLogger –  1499,00 р.
+2025-08-06 14:23:08 INFO  ApplicationLogger – 
+          Телефон Nokia 2660 (2022) TA-1469 Dual SIM (зеленый)
+        
+2025-08-06 14:23:08 INFO  ApplicationLogger –  330,54 р.
+2025-08-06 14:23:08 INFO  ApplicationLogger – 
+          Телефон Apple iPhone 16e 128GB (белый)
+        
+2025-08-06 14:23:08 INFO  ApplicationLogger –  1950,00 р.
+2025-08-06 14:23:08 INFO  ApplicationLogger – 
+          Телефон Apple iPhone 16 Pro 128GB (пустынный титан)
+        
+2025-08-06 14:23:08 INFO  ApplicationLogger –  3200,00 р.
+2025-08-06 14:23:08 INFO  ApplicationLogger – 
+          Телефон Apple iPhone 16 Pro 128GB (черный титан)
+        
+2025-08-06 14:23:08 INFO  ApplicationLogger –  3500,00 р.
+2025-08-06 14:23:08 INFO  ApplicationLogger – 
+          Телефон Apple iPhone 16 128GB (черный)
+        
+2025-08-06 14:23:08 INFO  ApplicationLogger –  2499,00 р.
+2025-08-06 14:23:08 INFO  ApplicationLogger – 
+          Телефон Apple iPhone 15 128GB (черный)
+        
+2025-08-06 14:23:08 INFO  ApplicationLogger –  2090,00 р.
+2025-08-06 14:23:08 INFO  ApplicationLogger – 
+          Телефон Samsung Galaxy S25 Ultra SM-S938B 12GB/256GB (черный титан)
+        
+2025-08-06 14:23:08 INFO  ApplicationLogger –  3150,00 р.
+2025-08-06 14:23:08 INFO  ApplicationLogger – MobilePhonesListingPage: most expensive phone -> name: 
+          Телефон Apple iPhone 16 Pro 128GB (черный титан)
+        , price: 3500.0
+2025-08-06 14:23:21 INFO  ApplicationLogger – CheckBoxPage: initialized
+2025-08-06 14:23:22 INFO  ApplicationLogger – CheckBoxPage: navigateToCheckBoxPage
+2025-08-06 14:23:22 INFO  ApplicationLogger – CheckBoxPage: clickExpandAllButton
+2025-08-06 14:23:22 INFO  ApplicationLogger – CheckBoxPage: clickCommandsText
+2025-08-06 14:23:22 INFO  ApplicationLogger – CheckBoxPage: isSelectedCheckBoxesInResult for Commands
+2025-08-06 14:23:22 INFO  ApplicationLogger – CheckBoxPage: isSelectedCheckBoxesInResult -> true
+2025-08-06 14:23:22 INFO  ApplicationLogger – CheckBoxPage: clickAngularText
+2025-08-06 14:23:22 INFO  ApplicationLogger – CheckBoxPage: isSelectedCheckBoxesInResult for Angular
+2025-08-06 14:23:22 INFO  ApplicationLogger – CheckBoxPage: isSelectedCheckBoxesInResult -> true
+2025-08-06 14:23:23 INFO  ApplicationLogger – CheckBoxPage: initialized
+2025-08-06 14:23:24 INFO  ApplicationLogger – CheckBoxPage: navigateToCheckBoxPage
+2025-08-06 14:23:24 INFO  ApplicationLogger – CheckBoxPage: clickExpandAllButton
+2025-08-06 14:23:24 INFO  ApplicationLogger – CheckBoxPage: clickMainCheckBox
+2025-08-06 14:23:24 INFO  ApplicationLogger – CheckBoxPage: areAllCheckboxesSelected -> true
+2025-08-06 14:23:26 INFO  ApplicationLogger – RadioButtonPage: initialized
+2025-08-06 14:23:27 INFO  ApplicationLogger – RadioButtonPage: clickRadioButtonPage
+2025-08-06 14:23:27 INFO  ApplicationLogger – RadioButtonPage: clickYesRadio
+2025-08-06 14:23:27 INFO  ApplicationLogger – RadioButtonPage: isResultText -> expected: Yes, actual: Yes
+2025-08-06 14:23:28 INFO  ApplicationLogger – RadioButtonPage: initialized
+2025-08-06 14:23:29 INFO  ApplicationLogger – RadioButtonPage: clickRadioButtonPage
+2025-08-06 14:23:29 INFO  ApplicationLogger – RadioButtonPage: clickImpressiveRadio
+2025-08-06 14:23:29 INFO  ApplicationLogger – RadioButtonPage: isResultText -> expected: Impressive, actual: Impressive
+2025-08-06 14:23:31 INFO  ApplicationLogger – TextBoxPage: initialized
+2025-08-06 14:23:32 INFO  ApplicationLogger – TextBoxPage: fillUsername -> Alex
+2025-08-06 14:23:32 INFO  ApplicationLogger – TextBoxPage: fillEmail -> test@example.com
+2025-08-06 14:23:32 INFO  ApplicationLogger – TextBoxPage: fillCurrentAddress -> Address 1
+2025-08-06 14:23:32 INFO  ApplicationLogger – TextBoxPage: fillPermanentAddress -> Permanent address 2
+2025-08-06 14:23:32 INFO  ApplicationLogger – TextBoxPage: clickSubmitButton
+2025-08-06 14:23:33 INFO  ApplicationLogger – TextBoxPage: getResultName -> Name:Alex
+2025-08-06 14:23:33 INFO  ApplicationLogger – TextBoxPage: getResultEmail -> Email:test@example.com
+2025-08-06 14:23:33 INFO  ApplicationLogger – TextBoxPage: getResultCurrentAddress -> Address 1
+2025-08-06 14:23:33 INFO  ApplicationLogger – TextBoxPage: getResultPermanentAddress -> Permanent address 2
+2025-08-06 14:23:35 INFO  ApplicationLogger – TextBoxPage: initialized
+2025-08-06 14:23:35 INFO  ApplicationLogger – TextBoxPage: fillEmail -> IncorrectEmail
+2025-08-06 14:23:47 INFO  ApplicationLogger – ButtonsPage: initialized
+2025-08-06 14:23:47 INFO  ApplicationLogger – ButtonsPage: clickOnButtonsPage
+2025-08-06 14:23:48 INFO  ApplicationLogger – ButtonsPage: performRightClick
+2025-08-06 14:24:00 INFO  ApplicationLogger – ButtonsPage: initialized
+2025-08-06 14:24:00 INFO  ApplicationLogger – ButtonsPage: clickOnButtonsPage
+2025-08-06 14:24:00 INFO  ApplicationLogger – ButtonsPage: performDoubleClick
+2025-08-06 14:24:12 INFO  ApplicationLogger – WebTablesPage: initialized
+2025-08-06 14:24:13 INFO  ApplicationLogger – WebTablesPage: clickWebTablesPage
+2025-08-06 14:24:13 INFO  ApplicationLogger – WebTablesPage: select5RowsInDropdown
+2025-08-06 14:24:13 INFO  ApplicationLogger – WebTablesPage: fillFormWithDefaultData
+2025-08-06 14:24:13 INFO  ApplicationLogger – WebTablesPage: clickAddButton
+2025-08-06 14:24:13 INFO  ApplicationLogger – WebTablesPage: fillUserName -> Alexander
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: fillLastName -> Gorsky
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: fillAge -> 77
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: fillEmail -> test@gmail.com
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: fillDepartment -> QA
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: fillSalary -> 100000000
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: submitForm
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: fillFormWithDefaultData
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: clickAddButton
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: fillUserName -> Alexander
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: fillLastName -> Gorsky
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: fillAge -> 77
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: fillEmail -> test@gmail.com
+2025-08-06 14:24:14 INFO  ApplicationLogger – WebTablesPage: fillDepartment -> QA
+2025-08-06 14:24:15 INFO  ApplicationLogger – WebTablesPage: fillSalary -> 100000000
+2025-08-06 14:24:15 INFO  ApplicationLogger – WebTablesPage: submitForm
+2025-08-06 14:24:15 INFO  ApplicationLogger – WebTablesPage: fillFormWithDefaultData
+2025-08-06 14:24:15 INFO  ApplicationLogger – WebTablesPage: clickAddButton
+2025-08-06 14:24:15 INFO  ApplicationLogger – WebTablesPage: fillUserName -> Alexander
+2025-08-06 14:24:15 INFO  ApplicationLogger – WebTablesPage: fillLastName -> Gorsky
+2025-08-06 14:24:15 INFO  ApplicationLogger – WebTablesPage: fillAge -> 77
+2025-08-06 14:24:15 INFO  ApplicationLogger – WebTablesPage: fillEmail -> test@gmail.com
+2025-08-06 14:24:15 INFO  ApplicationLogger – WebTablesPage: fillDepartment -> QA
+2025-08-06 14:24:15 INFO  ApplicationLogger – WebTablesPage: fillSalary -> 100000000
+2025-08-06 14:24:15 INFO  ApplicationLogger – WebTablesPage: submitForm
+2025-08-06 14:24:15 INFO  ApplicationLogger – WebTablesPage: getTotalPages -> 2
+2025-08-06 14:24:17 INFO  ApplicationLogger – WebTablesPage: initialized
+2025-08-06 14:24:18 INFO  ApplicationLogger – WebTablesPage: clickWebTablesPage
+2025-08-06 14:24:18 INFO  ApplicationLogger – WebTablesPage: fillFormWithDefaultData
+2025-08-06 14:24:18 INFO  ApplicationLogger – WebTablesPage: clickAddButton
+2025-08-06 14:24:18 INFO  ApplicationLogger – WebTablesPage: fillUserName -> Alexander
+2025-08-06 14:24:18 INFO  ApplicationLogger – WebTablesPage: fillLastName -> Gorsky
+2025-08-06 14:24:18 INFO  ApplicationLogger – WebTablesPage: fillAge -> 77
+2025-08-06 14:24:18 INFO  ApplicationLogger – WebTablesPage: fillEmail -> test@gmail.com
+2025-08-06 14:24:18 INFO  ApplicationLogger – WebTablesPage: fillDepartment -> QA
+2025-08-06 14:24:18 INFO  ApplicationLogger – WebTablesPage: fillSalary -> 100000000
+2025-08-06 14:24:18 INFO  ApplicationLogger – WebTablesPage: submitForm
+2025-08-06 14:24:19 INFO  ApplicationLogger – WebTablesPage: search -> Gorsky
+2025-08-06 14:24:19 INFO  ApplicationLogger – WebTablesPage: isTextPresentInTable -> Gorsky
+2025-08-06 14:24:19 INFO  ApplicationLogger – WebTablesPage: isTextPresentInTable -> found
+2025-08-08 09:19:40 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:19:41 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:19:41 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:19:41 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:19:41 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:19:41 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:19:42 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:19:42 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:19:42 INFO  ApplicationLogger – PracticeFormPage: selectHobby -> Sports
+2025-08-08 09:23:00 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:23:01 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:23:01 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:23:01 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:23:01 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:23:01 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:23:01 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:23:01 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:23:02 INFO  ApplicationLogger – PracticeFormPage: selectHobby -> Sports
+2025-08-08 09:24:16 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:24:17 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:24:17 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:24:17 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:24:17 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:24:18 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:24:18 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:24:18 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:24:18 INFO  ApplicationLogger – PracticeFormPage: selectHobby -> Sports
+2025-08-08 09:25:20 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:25:21 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:25:21 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:25:22 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:25:22 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:25:22 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:25:22 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:25:22 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:25:22 INFO  ApplicationLogger – PracticeFormPage: fillCurrentAddress -> Minsk, Address 1
+2025-08-08 09:25:22 INFO  ApplicationLogger – PracticeFormPage: selectState -> NCR
+2025-08-08 09:25:22 INFO  ApplicationLogger – PracticeFormPage: selectCity -> Delhi
+2025-08-08 09:25:22 INFO  ApplicationLogger – PracticeFormPage: submit
+2025-08-08 09:25:23 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Name = Alex Gorsky
+2025-08-08 09:25:23 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:25:23 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Email = alex.gorsky@example.com
+2025-08-08 09:25:23 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:25:23 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Gender = Male
+2025-08-08 09:25:23 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:25:23 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Mobile = 9000000000
+2025-08-08 09:25:23 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:25:23 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Date of Birth = 10 September,1995
+2025-08-08 09:25:23 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:27:57 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:27:58 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:27:58 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:27:58 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:27:58 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:27:58 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:27:58 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:27:58 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:27:59 INFO  ApplicationLogger – PracticeFormPage: fillCurrentAddress -> Minsk, Address 1
+2025-08-08 09:27:59 INFO  ApplicationLogger – PracticeFormPage: selectState -> NCR
+2025-08-08 09:27:59 INFO  ApplicationLogger – PracticeFormPage: selectCity -> Delhi
+2025-08-08 09:27:59 INFO  ApplicationLogger – PracticeFormPage: submit
+2025-08-08 09:27:59 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Name = Alex Gorsky
+2025-08-08 09:27:59 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:28:00 INFO  ApplicationLogger – Student Name Alex Gorsky => Alex Gorsky
+2025-08-08 09:28:00 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Email = alex.gorsky@example.com
+2025-08-08 09:28:00 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:28:00 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => alex.gorsky@example.com
+2025-08-08 09:28:00 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Gender = Male
+2025-08-08 09:28:00 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:28:00 INFO  ApplicationLogger – Gender Male => Male
+2025-08-08 09:28:00 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Mobile = 9000000000
+2025-08-08 09:28:00 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:28:00 INFO  ApplicationLogger – Mobile 9000000000 => 9000000000
+2025-08-08 09:28:00 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Date of Birth = 10 September,1995
+2025-08-08 09:28:00 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:31:36 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:31:37 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:31:37 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:31:37 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:31:37 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:31:38 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:31:38 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:31:38 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:31:38 INFO  ApplicationLogger – PracticeFormPage: fillCurrentAddress -> Minsk, Address 1
+2025-08-08 09:31:38 INFO  ApplicationLogger – PracticeFormPage: selectState -> NCR
+2025-08-08 09:31:38 INFO  ApplicationLogger – PracticeFormPage: selectCity -> Delhi
+2025-08-08 09:31:38 INFO  ApplicationLogger – PracticeFormPage: submit
+2025-08-08 09:31:39 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Name = Alex Gorsky
+2025-08-08 09:31:39 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:31:39 INFO  ApplicationLogger – Student Name Alex Gorsky => Alex Gorsky
+2025-08-08 09:31:39 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Email = alex.gorsky@example.com
+2025-08-08 09:31:39 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:31:39 INFO  ApplicationLogger – Student Name Alex Gorsky => alex.gorsky@example.com
+2025-08-08 09:31:39 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => alex.gorsky@example.com
+2025-08-08 09:31:39 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Gender = Male
+2025-08-08 09:31:39 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:31:39 INFO  ApplicationLogger – Student Name Alex Gorsky => Male
+2025-08-08 09:31:39 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => Male
+2025-08-08 09:31:39 INFO  ApplicationLogger – Gender Male => Male
+2025-08-08 09:31:39 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Mobile = 9000000000
+2025-08-08 09:31:39 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:31:39 INFO  ApplicationLogger – Student Name Alex Gorsky => 9000000000
+2025-08-08 09:31:39 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => 9000000000
+2025-08-08 09:31:39 INFO  ApplicationLogger – Gender Male => 9000000000
+2025-08-08 09:31:39 INFO  ApplicationLogger – Mobile 9000000000 => 9000000000
+2025-08-08 09:31:39 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Date of Birth = 10 September,1995
+2025-08-08 09:31:39 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:31:39 INFO  ApplicationLogger – Student Name Alex Gorsky => 10 September,1995
+2025-08-08 09:31:39 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => 10 September,1995
+2025-08-08 09:31:39 INFO  ApplicationLogger – Gender Male => 10 September,1995
+2025-08-08 09:31:39 INFO  ApplicationLogger – Mobile 9000000000 => 10 September,1995
+2025-08-08 09:31:39 INFO  ApplicationLogger – Date of Birth 08 August,2025 => 10 September,1995
+2025-08-08 09:31:39 INFO  ApplicationLogger – Subjects Maths, English => 10 September,1995
+2025-08-08 09:31:39 INFO  ApplicationLogger – Hobbies => 10 September,1995
+2025-08-08 09:31:39 INFO  ApplicationLogger – Picture => 10 September,1995
+2025-08-08 09:31:39 INFO  ApplicationLogger – Address Minsk, Address 1 => 10 September,1995
+2025-08-08 09:31:39 INFO  ApplicationLogger – State and City NCR Delhi => 10 September,1995
+2025-08-08 09:32:53 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:32:54 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:32:54 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:32:54 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:32:55 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:32:55 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:33:04 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:33:07 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:33:09 INFO  ApplicationLogger – PracticeFormPage: fillCurrentAddress -> Minsk, Address 1
+2025-08-08 09:33:13 INFO  ApplicationLogger – PracticeFormPage: selectState -> NCR
+2025-08-08 09:33:16 INFO  ApplicationLogger – PracticeFormPage: selectCity -> Delhi
+2025-08-08 09:33:18 INFO  ApplicationLogger – PracticeFormPage: submit
+2025-08-08 09:33:46 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Name = Alex Gorsky
+2025-08-08 09:33:46 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:33:46 INFO  ApplicationLogger – Student Name Alex Gorsky => Alex Gorsky
+2025-08-08 09:33:47 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Email = alex.gorsky@example.com
+2025-08-08 09:33:47 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:33:47 INFO  ApplicationLogger – Student Name Alex Gorsky => alex.gorsky@example.com
+2025-08-08 09:33:47 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => alex.gorsky@example.com
+2025-08-08 09:33:47 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Gender = Male
+2025-08-08 09:33:47 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:33:47 INFO  ApplicationLogger – Student Name Alex Gorsky => Male
+2025-08-08 09:33:47 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => Male
+2025-08-08 09:33:47 INFO  ApplicationLogger – Gender Male => Male
+2025-08-08 09:33:48 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Mobile = 9000000000
+2025-08-08 09:33:48 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:33:48 INFO  ApplicationLogger – Student Name Alex Gorsky => 9000000000
+2025-08-08 09:33:48 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => 9000000000
+2025-08-08 09:33:48 INFO  ApplicationLogger – Gender Male => 9000000000
+2025-08-08 09:33:48 INFO  ApplicationLogger – Mobile 9000000000 => 9000000000
+2025-08-08 09:33:49 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Date of Birth = 10 September,1995
+2025-08-08 09:33:49 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:33:49 INFO  ApplicationLogger – Student Name Alex Gorsky => 10 September,1995
+2025-08-08 09:33:49 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => 10 September,1995
+2025-08-08 09:33:49 INFO  ApplicationLogger – Gender Male => 10 September,1995
+2025-08-08 09:33:49 INFO  ApplicationLogger – Mobile 9000000000 => 10 September,1995
+2025-08-08 09:33:49 INFO  ApplicationLogger – Date of Birth 08 August,2025 => 10 September,1995
+2025-08-08 09:33:49 INFO  ApplicationLogger – Subjects Maths, English => 10 September,1995
+2025-08-08 09:33:49 INFO  ApplicationLogger – Hobbies => 10 September,1995
+2025-08-08 09:33:49 INFO  ApplicationLogger – Picture => 10 September,1995
+2025-08-08 09:33:49 INFO  ApplicationLogger – Address Minsk, Address 1 => 10 September,1995
+2025-08-08 09:33:49 INFO  ApplicationLogger – State and City NCR Delhi => 10 September,1995
+2025-08-08 09:34:00 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:34:01 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:34:01 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:34:01 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:34:02 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:34:02 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:34:02 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:34:02 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:34:02 INFO  ApplicationLogger – PracticeFormPage: fillCurrentAddress -> Minsk, Address 1
+2025-08-08 09:34:02 INFO  ApplicationLogger – PracticeFormPage: selectState -> NCR
+2025-08-08 09:34:02 INFO  ApplicationLogger – PracticeFormPage: selectCity -> Delhi
+2025-08-08 09:34:02 INFO  ApplicationLogger – PracticeFormPage: submit
+2025-08-08 09:34:03 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Name = Alex Gorsky
+2025-08-08 09:34:03 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:34:03 INFO  ApplicationLogger – Student Name Alex Gorsky => Alex Gorsky
+2025-08-08 09:34:03 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Email = alex.gorsky@example.com
+2025-08-08 09:34:03 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:34:03 INFO  ApplicationLogger – Student Name Alex Gorsky => alex.gorsky@example.com
+2025-08-08 09:34:03 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => alex.gorsky@example.com
+2025-08-08 09:34:03 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Gender = Male
+2025-08-08 09:34:03 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:34:03 INFO  ApplicationLogger – Student Name Alex Gorsky => Male
+2025-08-08 09:34:03 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => Male
+2025-08-08 09:34:03 INFO  ApplicationLogger – Gender Male => Male
+2025-08-08 09:34:03 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Mobile = 9000000000
+2025-08-08 09:34:03 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:34:03 INFO  ApplicationLogger – Student Name Alex Gorsky => 9000000000
+2025-08-08 09:34:03 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => 9000000000
+2025-08-08 09:34:03 INFO  ApplicationLogger – Gender Male => 9000000000
+2025-08-08 09:34:03 INFO  ApplicationLogger – Mobile 9000000000 => 9000000000
+2025-08-08 09:34:03 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Subjects = Maths, English
+2025-08-08 09:34:03 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:34:03 INFO  ApplicationLogger – Student Name Alex Gorsky => Maths, English
+2025-08-08 09:34:03 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => Maths, English
+2025-08-08 09:34:03 INFO  ApplicationLogger – Gender Male => Maths, English
+2025-08-08 09:34:03 INFO  ApplicationLogger – Mobile 9000000000 => Maths, English
+2025-08-08 09:34:03 INFO  ApplicationLogger – Date of Birth 08 August,2025 => Maths, English
+2025-08-08 09:34:03 INFO  ApplicationLogger – Subjects Maths, English => Maths, English
+2025-08-08 09:34:03 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Hobbies = Sports
+2025-08-08 09:34:03 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:34:03 INFO  ApplicationLogger – Student Name Alex Gorsky => Sports
+2025-08-08 09:34:03 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => Sports
+2025-08-08 09:34:03 INFO  ApplicationLogger – Gender Male => Sports
+2025-08-08 09:34:03 INFO  ApplicationLogger – Mobile 9000000000 => Sports
+2025-08-08 09:34:03 INFO  ApplicationLogger – Date of Birth 08 August,2025 => Sports
+2025-08-08 09:34:03 INFO  ApplicationLogger – Subjects Maths, English => Sports
+2025-08-08 09:34:03 INFO  ApplicationLogger – Hobbies => Sports
+2025-08-08 09:34:03 INFO  ApplicationLogger – Picture => Sports
+2025-08-08 09:34:03 INFO  ApplicationLogger – Address Minsk, Address 1 => Sports
+2025-08-08 09:34:03 INFO  ApplicationLogger – State and City NCR Delhi => Sports
+2025-08-08 09:35:14 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:35:15 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:35:15 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:35:15 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:35:15 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:35:15 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: fillCurrentAddress -> Minsk, Address 1
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: selectState -> NCR
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: selectCity -> Delhi
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: submit
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Name = Alex Gorsky
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:35:16 INFO  ApplicationLogger – Student Name Alex Gorsky => Alex Gorsky
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Email = alex.gorsky@example.com
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:35:16 INFO  ApplicationLogger – Student Name Alex Gorsky => alex.gorsky@example.com
+2025-08-08 09:35:16 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => alex.gorsky@example.com
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Gender = Male
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:35:16 INFO  ApplicationLogger – Student Name Alex Gorsky => Male
+2025-08-08 09:35:16 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => Male
+2025-08-08 09:35:16 INFO  ApplicationLogger – Gender Male => Male
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Mobile = 9000000000
+2025-08-08 09:35:16 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:35:17 INFO  ApplicationLogger – Student Name Alex Gorsky => 9000000000
+2025-08-08 09:35:17 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => 9000000000
+2025-08-08 09:35:17 INFO  ApplicationLogger – Gender Male => 9000000000
+2025-08-08 09:35:17 INFO  ApplicationLogger – Mobile 9000000000 => 9000000000
+2025-08-08 09:35:17 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Subjects = Maths, English
+2025-08-08 09:35:17 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:35:17 INFO  ApplicationLogger – Student Name Alex Gorsky => Maths, English
+2025-08-08 09:35:17 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => Maths, English
+2025-08-08 09:35:17 INFO  ApplicationLogger – Gender Male => Maths, English
+2025-08-08 09:35:17 INFO  ApplicationLogger – Mobile 9000000000 => Maths, English
+2025-08-08 09:35:17 INFO  ApplicationLogger – Date of Birth 08 August,2025 => Maths, English
+2025-08-08 09:35:17 INFO  ApplicationLogger – Subjects Maths, English => Maths, English
+2025-08-08 09:35:17 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Address = Minsk
+2025-08-08 09:35:17 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:35:17 INFO  ApplicationLogger – Student Name Alex Gorsky => Minsk
+2025-08-08 09:35:17 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => Minsk
+2025-08-08 09:35:17 INFO  ApplicationLogger – Gender Male => Minsk
+2025-08-08 09:35:17 INFO  ApplicationLogger – Mobile 9000000000 => Minsk
+2025-08-08 09:35:17 INFO  ApplicationLogger – Date of Birth 08 August,2025 => Minsk
+2025-08-08 09:35:17 INFO  ApplicationLogger – Subjects Maths, English => Minsk
+2025-08-08 09:35:17 INFO  ApplicationLogger – Hobbies => Minsk
+2025-08-08 09:35:17 INFO  ApplicationLogger – Picture => Minsk
+2025-08-08 09:35:17 INFO  ApplicationLogger – Address Minsk, Address 1 => Minsk
+2025-08-08 09:35:17 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> State and City = NCR Delhi
+2025-08-08 09:35:17 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:35:17 INFO  ApplicationLogger – Student Name Alex Gorsky => NCR Delhi
+2025-08-08 09:35:17 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => NCR Delhi
+2025-08-08 09:35:17 INFO  ApplicationLogger – Gender Male => NCR Delhi
+2025-08-08 09:35:17 INFO  ApplicationLogger – Mobile 9000000000 => NCR Delhi
+2025-08-08 09:35:17 INFO  ApplicationLogger – Date of Birth 08 August,2025 => NCR Delhi
+2025-08-08 09:35:17 INFO  ApplicationLogger – Subjects Maths, English => NCR Delhi
+2025-08-08 09:35:17 INFO  ApplicationLogger – Hobbies => NCR Delhi
+2025-08-08 09:35:17 INFO  ApplicationLogger – Picture => NCR Delhi
+2025-08-08 09:35:17 INFO  ApplicationLogger – Address Minsk, Address 1 => NCR Delhi
+2025-08-08 09:35:17 INFO  ApplicationLogger – State and City NCR Delhi => NCR Delhi
+2025-08-08 09:35:49 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:35:50 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:35:51 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:35:51 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:35:51 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:35:51 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:35:51 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:35:51 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:35:51 INFO  ApplicationLogger – PracticeFormPage: uploadPicture -> /Users/home/IdeaProjects/mydemoqa/src/test/resources/test-data/demo.png
+2025-08-08 09:37:29 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:37:30 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:37:30 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:37:30 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:37:30 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:37:30 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:37:30 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:37:30 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:37:31 INFO  ApplicationLogger – PracticeFormPage: uploadPicture -> /Users/home/IdeaProjects/mydemoqa/src/test/resources/test-data/demo.png
+2025-08-08 09:37:43 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:37:44 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:37:44 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:37:44 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:37:44 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:37:44 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:37:45 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:37:45 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:37:45 INFO  ApplicationLogger – PracticeFormPage: uploadPicture -> /Users/home/IdeaProjects/mydemoqa/src/test/resources/test-data/demo.png
+2025-08-08 09:38:44 INFO  ApplicationLogger – PracticeFormPage: open -> https://demoqa.com/automation-practice-form
+2025-08-08 09:38:45 INFO  ApplicationLogger – PracticeFormPage: fillFirstName -> Alex
+2025-08-08 09:38:46 INFO  ApplicationLogger – PracticeFormPage: fillLastName -> Gorsky
+2025-08-08 09:38:46 INFO  ApplicationLogger – PracticeFormPage: fillEmail -> alex.gorsky@example.com
+2025-08-08 09:38:46 INFO  ApplicationLogger – PracticeFormPage: selectGender -> Male
+2025-08-08 09:38:46 INFO  ApplicationLogger – PracticeFormPage: fillMobile -> 9000000000
+2025-08-08 09:38:46 INFO  ApplicationLogger – PracticeFormPage: setDateOfBirth -> 10 Sep 1995
+2025-08-08 09:38:46 INFO  ApplicationLogger – PracticeFormPage: addSubjects -> [Maths, English]
+2025-08-08 09:38:46 INFO  ApplicationLogger – PracticeFormPage: fillCurrentAddress -> Minsk, Address 1
+2025-08-08 09:38:46 INFO  ApplicationLogger – PracticeFormPage: selectState -> NCR
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: selectCity -> Delhi
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: submit
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Name = Alex Gorsky
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Name Alex Gorsky => Alex Gorsky
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Student Email = alex.gorsky@example.com
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Name Alex Gorsky => alex.gorsky@example.com
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => alex.gorsky@example.com
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Gender = Male
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Name Alex Gorsky => Male
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => Male
+2025-08-08 09:38:47 INFO  ApplicationLogger – Gender Male => Male
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Mobile = 9000000000
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Name Alex Gorsky => 9000000000
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => 9000000000
+2025-08-08 09:38:47 INFO  ApplicationLogger – Gender Male => 9000000000
+2025-08-08 09:38:47 INFO  ApplicationLogger – Mobile 9000000000 => 9000000000
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Subjects = Maths, English
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Name Alex Gorsky => Maths, English
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => Maths, English
+2025-08-08 09:38:47 INFO  ApplicationLogger – Gender Male => Maths, English
+2025-08-08 09:38:47 INFO  ApplicationLogger – Mobile 9000000000 => Maths, English
+2025-08-08 09:38:47 INFO  ApplicationLogger – Date of Birth 08 August,2025 => Maths, English
+2025-08-08 09:38:47 INFO  ApplicationLogger – Subjects Maths, English => Maths, English
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> Address = Minsk
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Name Alex Gorsky => Minsk
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => Minsk
+2025-08-08 09:38:47 INFO  ApplicationLogger – Gender Male => Minsk
+2025-08-08 09:38:47 INFO  ApplicationLogger – Mobile 9000000000 => Minsk
+2025-08-08 09:38:47 INFO  ApplicationLogger – Date of Birth 08 August,2025 => Minsk
+2025-08-08 09:38:47 INFO  ApplicationLogger – Subjects Maths, English => Minsk
+2025-08-08 09:38:47 INFO  ApplicationLogger – Hobbies => Minsk
+2025-08-08 09:38:47 INFO  ApplicationLogger – Picture => Minsk
+2025-08-08 09:38:47 INFO  ApplicationLogger – Address Minsk, Address 1 => Minsk
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: isResultContains -> State and City = NCR Delhi
+2025-08-08 09:38:47 INFO  ApplicationLogger – PracticeFormPage: getResultRows
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Name Alex Gorsky => NCR Delhi
+2025-08-08 09:38:47 INFO  ApplicationLogger – Student Email alex.gorsky@example.com => NCR Delhi
+2025-08-08 09:38:47 INFO  ApplicationLogger – Gender Male => NCR Delhi
+2025-08-08 09:38:47 INFO  ApplicationLogger – Mobile 9000000000 => NCR Delhi
+2025-08-08 09:38:47 INFO  ApplicationLogger – Date of Birth 08 August,2025 => NCR Delhi
+2025-08-08 09:38:47 INFO  ApplicationLogger – Subjects Maths, English => NCR Delhi
+2025-08-08 09:38:47 INFO  ApplicationLogger – Hobbies => NCR Delhi
+2025-08-08 09:38:47 INFO  ApplicationLogger – Picture => NCR Delhi
+2025-08-08 09:38:47 INFO  ApplicationLogger – Address Minsk, Address 1 => NCR Delhi
+2025-08-08 09:38:47 INFO  ApplicationLogger – State and City NCR Delhi => NCR Delhi
+2025-08-08 09:47:52 INFO  ApplicationLogger – BrowserWindowsPage: open -> https://demoqa.com/browser-windows
+2025-08-08 09:47:53 INFO  ApplicationLogger – BrowserWindowsPage: openNewTab
+2025-08-08 09:47:54 INFO  ApplicationLogger – BrowserWindowsPage: switchToNewestWindow
+2025-08-08 09:47:54 INFO  ApplicationLogger – BrowserWindowsPage: openNewWindow
+2025-08-08 09:47:54 INFO  ApplicationLogger – BrowserWindowsPage: switchToNewestWindow
+2025-08-08 09:47:56 INFO  ApplicationLogger – AlertsPage: open -> https://demoqa.com/alerts
+2025-08-08 09:47:57 INFO  ApplicationLogger – AlertsPage: triggerImmediateAlertAndAccept
+2025-08-08 09:47:57 INFO  ApplicationLogger – AlertsPage: triggerTimerAlertAndAccept
+2025-08-08 09:48:03 INFO  ApplicationLogger – AlertsPage: triggerConfirm -> accept
+2025-08-08 09:48:03 INFO  ApplicationLogger – AlertsPage: triggerConfirm -> dismiss
+2025-08-08 09:48:03 INFO  ApplicationLogger – AlertsPage: triggerPrompt -> Hello QA
+2025-08-08 09:48:05 INFO  ApplicationLogger – NestedFramesPage: open -> https://demoqa.com/nestedframes
+2025-08-08 09:48:08 INFO  ApplicationLogger – FramesPage: open -> https://demoqa.com/frames
+2025-08-08 09:48:10 INFO  ApplicationLogger – ModalDialogsPage: open -> https://demoqa.com/modal-dialogs
+2025-08-08 10:40:09 INFO  ApplicationLogger – DraggablePage: open -> https://demoqa.com/dragabble
+2025-08-08 10:40:10 INFO  ApplicationLogger – DraggablePage: dragBy -> 60,40
+2025-08-08 10:40:12 INFO  ApplicationLogger – SortablePage: open -> https://demoqa.com/sortable
+2025-08-08 10:40:15 INFO  ApplicationLogger – DroppablePage: open -> https://demoqa.com/droppable
+2025-08-08 10:40:16 INFO  ApplicationLogger – DroppablePage: dragToDropBox
+2025-08-08 10:40:18 INFO  ApplicationLogger – SelectablePage: open -> https://demoqa.com/selectable
+2025-08-08 10:40:21 INFO  ApplicationLogger – SelectablePage: open -> https://demoqa.com/selectable
+2025-08-08 10:40:24 INFO  ApplicationLogger – ResizablePage: open -> https://demoqa.com/resizable
+2025-08-08 10:40:25 INFO  ApplicationLogger – ResizablePage: resizeRestrictedBy -> 50,30
+2025-08-08 10:40:27 INFO  ApplicationLogger – ResizablePage: open -> https://demoqa.com/resizable
+2025-08-08 10:40:28 INFO  ApplicationLogger – ResizablePage: resizeFreeBy -> 80,40

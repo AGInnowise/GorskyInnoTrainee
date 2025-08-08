@@ -5,6 +5,7 @@ import Pages.BasePage;
 import WebDriverManager.WebDriverSingleton;
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
+import Helpers.Logger;
 
 public class ButtonsPage extends BasePage {
 
@@ -16,27 +17,35 @@ public class ButtonsPage extends BasePage {
 
     public ButtonsPage() {
         super(WebDriverSingleton.driver);
+        Logger.log("ButtonsPage: initialized");
     }
 
     public void performDoubleClick() {
+        Logger.log("ButtonsPage: performDoubleClick");
         Actions actions = new Actions(driver);
         actions.doubleClick(doubleClickBtn.findElement()).perform();
     }
 
     public void performRightClick() {
+        Logger.log("ButtonsPage: performRightClick");
         Actions actions = new Actions(driver);
         actions.contextClick(rightClickBtn.findElement()).perform();
     }
 
     public String getDoubleClickMessage() {
-        return doubleClickMessage.getText();
+        String message = doubleClickMessage.getText();
+        Logger.log("ButtonsPage: getDoubleClickMessage -> " + message);
+        return message;
     }
 
     public String getRightClickMessage() {
-        return rightClickMessage.getText();
+        String message = rightClickMessage.getText();
+        Logger.log("ButtonsPage: getRightClickMessage -> " + message);
+        return message;
     }
 
     public void clickOnButtonsPage(){
+        Logger.log("ButtonsPage: clickOnButtonsPage");
         buttonsSelector.click();
     }
 }

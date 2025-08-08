@@ -10,7 +10,8 @@ import org.openqa.selenium.support.PageFactory;
  */
 public abstract class BasePage {
     protected WebDriver driver;
-    private final String basePage = ConfigReader.get("baseUrl");
+    private final String baseDemoqaPage = ConfigReader.get("baseDemoqaUrl");
+    private final String baseOnlinerPage = ConfigReader.get("baseOnlinerUrl");
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -22,7 +23,11 @@ public abstract class BasePage {
         return driver.getTitle();
     }
 
-    public void navigateToBasePage(){
-        driver.get(basePage);
+    public void navigateToBaseDemoqaPage(){
+        driver.get(baseDemoqaPage);
     }
+    public void navigateToBaseOnlinerPage(){
+        driver.get(baseOnlinerPage);
+    }
+
 }
