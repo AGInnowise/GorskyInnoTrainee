@@ -1,0 +1,33 @@
+package Pages;
+
+import Helpers.ConfigHelper.ConfigReader;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+/**
+ * Базовый класс для всех Page Object.
+ * Содержит общие действия и конструктор инициализации элементов.
+ */
+public abstract class BasePage {
+    protected WebDriver driver;
+    private final String baseDemoqaPage = ConfigReader.get("baseDemoqaUrl");
+    private final String baseOnlinerPage = ConfigReader.get("baseOnlinerUrl");
+
+    public BasePage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
+    // Пример универсального метода
+    public String getPageTitle() {
+        return driver.getTitle();
+    }
+
+    public void navigateToBaseDemoqaPage(){
+        driver.get(baseDemoqaPage);
+    }
+    public void navigateToBaseOnlinerPage(){
+        driver.get(baseOnlinerPage);
+    }
+
+}
